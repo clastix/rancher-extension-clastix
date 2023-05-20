@@ -1,5 +1,4 @@
-import { IPlugin } from "@shell/core/types";
-const icon = require("./icon.svg");
+const clastixIcon = require("./icon.svg");
 
 export function init($plugin, store) {
   const YOUR_PRODUCT_NAME = "Multitenancy Management";
@@ -11,7 +10,7 @@ export function init($plugin, store) {
 
   product({
     inStore: "management",
-    svg: icon,
+    svg: clastixIcon,
     label: "Multitenancy Management",
     removable: false,
     showClusterSwitcher: false,
