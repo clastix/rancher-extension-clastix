@@ -9,7 +9,7 @@ export default {
   <iframe
     height="100%"
     width="100%"
-    src="http://localhost:3000/dashboard/tcps?filter="
+    src="https://kamaji.labs.clastix.io:9443/ui/dashboard/tcps?filter="
     sandbox="allow-storage-access-by-user-activation
                  allow-scripts
                  allow-same-origin
