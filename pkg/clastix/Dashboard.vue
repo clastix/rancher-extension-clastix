@@ -7,6 +7,7 @@ export default {
 </script>
 <template>
   <iframe
+  class="frame"
     height="100%"
     width="100%"
     src="https://kamaji.labs.clastix.io:9443/ui/dashboard/tcps?filter="
@@ -20,13 +21,14 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-h1 {
-  text-align: center;
-}
 
-.clock {
-  align-items: center;
-  display: flex;
-  justify-content: center;
+.frame {
+  border: none;
+  margin: 0;
+  position: fixed;
+  top: 55px;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 </style>
