@@ -12,12 +12,12 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-05-20T17:27:39.185933539Z"
+    created: "2023-06-06T12:42:36.068655443Z"
     description: clastix plugin
-    digest: f4f92fca4310ebcd02e2876e16fe572bf0f942550db39d875bac8042f9aa461a
+    digest: 1b045a5cd0313731ff570043f19d56e91932be636900f277262a44af7e96c9c6
     name: clastix
     type: application
     urls:
     - assets/clastix/clastix-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-20T17:27:39.184944246Z"
+generated: "2023-06-06T12:42:36.067579444Z"
