@@ -12,33 +12,13 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-06-11T09:54:03.876925364Z"
+    created: "2023-06-11T09:56:38.288890359Z"
     description: kamaji
-    digest: 5b39eb7008267a237882861be6e9b2f400130d4abc10457790dc922f55e0412f
+    digest: a935ce0f0d5d07c807fe6638868a6f301afc389992a81d184233ea961aa78d30
     icon: https://raw.githubusercontent.com/clastix/rancher-extension-clastix/main/pkg/clastix/assets/icon-kamaji.svg
     name: kamaji
     type: application
     urls:
-    - assets/clastix/kamaji-0.1.0.tgz
+    - kamaji/kamaji-0.1.0.tgz
     version: 0.1.0
-  - annotations:
-      catalog.cattle.io/certified: rancher
-      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.26.0-0'
-      catalog.cattle.io/namespace: cattle-ui-plugin-system
-      catalog.cattle.io/os: linux
-      catalog.cattle.io/permits-os: linux, windows
-      catalog.cattle.io/rancher-version: '>= 2.7.0-0 < 2.8.0-0'
-      catalog.cattle.io/scope: management
-      catalog.cattle.io/ui-component: plugins
-    apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-06-11T09:54:03.877315867Z"
-    description: kamaji
-    digest: 9e65e0cdddb321afd763a28144eb5ea4e1bf8d230eff16bb44b27023584a5728
-    icon: https://raw.githubusercontent.com/clastix/rancher-extension-clastix/main/pkg/clastix/assets/icon-kamaji.svg
-    name: kamaji
-    type: application
-    urls:
-    - assets/kamaji/kamaji-0.1.0.tgz
-    version: 0.1.0
-generated: "2023-06-11T09:54:03.875881556Z"
+generated: "2023-06-11T09:56:38.288056643Z"
