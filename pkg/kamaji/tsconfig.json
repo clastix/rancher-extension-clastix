@@ -18,6 +18,8 @@
       "../../node_modules/@rancher/shell/types"
     ],
     "types": [
+      "node",
+      "webpack-env",
       "@types/node",
       "@types/jest",
       "@types/lodash",
@@ -35,8 +37,8 @@
     "**/*.d.ts",
     "**/*.tsx",
     "**/*.vue",
-    "product.ts",
-    "product.ts"
+    "product.js",
+    "product.js"
   ],
   "exclude": ["../../node_modules"]
 }
