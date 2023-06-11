@@ -1,6 +1,7 @@
 {
-  "name": "clastix",
-  "description": "clastix plugin",
+  "name": "kamaji",
+  "description": "kamaji",
+  "icon": "https://raw.githubusercontent.com/clastix/rancher-extension-clastix/main/pkg/clastix/assets/icon-kamaji.svg",
   "version": "0.1.0",
   "private": false,
   "rancher": true,
@@ -15,5 +16,5 @@
   "files": [
     "**/*"
   ],
-  "main": "clastix-0.1.0.umd.min.js"
+  "main": "kamaji-0.1.0.umd.min.js"
 }

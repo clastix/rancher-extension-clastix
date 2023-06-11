@@ -9,7 +9,8 @@ annotations:
   catalog.cattle.io/ui-component: plugins
 apiVersion: v2
 appVersion: "0.1.0"
-description: clastix plugin
-name: clastix
+description: kamaji
+name: kamaji
 type: application
 version: 0.1.0
+icon: https://raw.githubusercontent.com/clastix/rancher-extension-clastix/main/pkg/clastix/assets/icon-kamaji.svg
