@@ -6,11 +6,11 @@
     "node": ">=12"
   },
   "dependencies": {
+    "@rancher/components": "0.1.1",
     "@rancher/shell": "^0.3.9",
-    "core-js": "3.21.1",
-    "css-loader": "4.3.0",
     "@types/lodash": "4.14.184",
-    "@rancher/components": "0.1.1"
+    "core-js": "3.21.1",
+    "css-loader": "4.3.0"
   },
   "resolutions": {
     "**/webpack": "4",
@@ -23,5 +23,9 @@
     "build-pkg": "./node_modules/@rancher/shell/scripts/build-pkg.sh",
     "serve-pkgs": "./node_modules/@rancher/shell/scripts/serve-pkgs",
     "publish-pkgs": "./node_modules/@rancher/shell/scripts/extension/publish"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "@types/node": "^20.3.0"
   }
 }
