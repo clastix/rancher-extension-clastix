@@ -16,7 +16,7 @@
       "@shell/*": ["./node_modules/@rancher/shell/*"]
     },
     "typeRoots": ["./node_modules", "./node_modules/@rancher/shell/types"],
-    "types": ["@types/node", "cypress", "rancher", "shell"]
+    "types": ["node", "@types/node", "cypress", "rancher", "shell"]
   },
   "exclude": ["node_modules"]
 }
