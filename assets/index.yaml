@@ -1,0 +1,44 @@
+apiVersion: v1
+entries:
+  kamaji:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.26.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0 < 2.8.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-06-11T09:54:03.876925364Z"
+    description: kamaji
+    digest: 5b39eb7008267a237882861be6e9b2f400130d4abc10457790dc922f55e0412f
+    icon: https://raw.githubusercontent.com/clastix/rancher-extension-clastix/main/pkg/clastix/assets/icon-kamaji.svg
+    name: kamaji
+    type: application
+    urls:
+    - assets/clastix/kamaji-0.1.0.tgz
+    version: 0.1.0
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.26.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0 < 2.8.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-06-11T09:54:03.877315867Z"
+    description: kamaji
+    digest: 9e65e0cdddb321afd763a28144eb5ea4e1bf8d230eff16bb44b27023584a5728
+    icon: https://raw.githubusercontent.com/clastix/rancher-extension-clastix/main/pkg/clastix/assets/icon-kamaji.svg
+    name: kamaji
+    type: application
+    urls:
+    - assets/kamaji/kamaji-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-06-11T09:54:03.875881556Z"

@@ -1,0 +1,4 @@
+plugin/clastix-0.1.0.umd.min.js
+plugin/clastix-0.1.0.umd.min.js.map
+plugin/img/icon.ccfe9b3e.svg
+plugin/package.json
