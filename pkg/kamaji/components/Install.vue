@@ -40,11 +40,11 @@ export default {
 
 <template>
   <div class="main">
-    <h2>Kamaji and Kamaji Console is not installed</h2>
+    <h2>Kamaji and Kamaji Console are not installed</h2>
     <p>
       Please complete the installation process
-      <a href="https://kamaji.clastix.io/" target="_blank"
-        >following this guide</a
+      <a href="https://kamaji.clastix.io/" target="_blank">
+        following this guide </a
       >.
     </p>
 
