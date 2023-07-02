@@ -2,7 +2,7 @@
   "name": "kamaji",
   "description": "Deploys and operates Kubernetes Control Plane at scale with a fraction of the operational burden",
   "icon": "https://raw.githubusercontent.com/clastix/rancher-extension-clastix/main/pkg/kamaji/assets/icon-kamaji.svg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "rancher": true,
   "scripts": {
