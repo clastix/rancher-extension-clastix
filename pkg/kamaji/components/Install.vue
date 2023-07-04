@@ -21,12 +21,9 @@ export default {
     ...mapGetters({ allRepos: "catalog/repos" }),
 
     certManagerInstalled() {
-      const srvs =
-        this.$store.getters[`${this.currentProduct.inStore}/all`](SERVICE);
-      const srv = srvs.find(
-        (s) => s.metadata?.labels?.["app"] === "cert-manager"
+      return !!this.$store.getters[`${this.currentProduct.inStore}/schemaFor`](
+        "certificates.cert-manager.io"
       );
-      return !!srv;
     },
 
     kamajiInstalled() {

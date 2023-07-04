@@ -5,7 +5,7 @@ import Install from "./components/Install.vue";
 
 export default {
   name: "Dashboard",
-  layout: "plain",
+  layout: "single",
   async beforeMount() {
     const res = await this.$store.dispatch(`cluster/findMatching`, {
       type: INGRESS,
