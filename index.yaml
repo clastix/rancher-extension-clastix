@@ -20,7 +20,7 @@ entries:
     name: kamaji
     type: application
     urls:
-    - kamaji/kamaji-0.1.1.tgz
+    - assets/kamaji/kamaji-0.1.1.tgz
     version: 0.1.1
   - annotations:
       catalog.cattle.io/certified: rancher
