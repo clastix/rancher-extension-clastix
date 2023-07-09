@@ -22,7 +22,7 @@ export default {
 
     certManagerInstalled() {
       return !!this.$store.getters[`${this.currentProduct.inStore}/schemaFor`](
-        "certificates.cert-manager.io"
+        "cert-manager.io.certificate"
       );
     },
 
