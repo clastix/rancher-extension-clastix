@@ -1,13 +1,9 @@
 <script>
 export default {
-  props: {
-    url: String,
-  },
+  props:      { url: String },
   components: {},
   data() {
-    return {
-      computedUrl: `https://${this.url}/ui`,
-    };
+    return { computedUrl: `https://${ this.url }/ui` };
   },
 };
 </script>

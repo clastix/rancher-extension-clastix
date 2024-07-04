@@ -1,17 +1,17 @@
 <script>
-import { INGRESS } from "@shell/config/types";
-import Console from "./components/Console.vue";
-import Install from "./components/Install.vue";
+import { INGRESS } from '@shell/config/types';
+import Console from './components/Console.vue';
+import Install from './components/Install.vue';
 
 export default {
-  name: "Dashboard",
-  layout: "single",
+  name: 'KamajiDashboard',
   async beforeMount() {
     const res = await this.$store.dispatch(`cluster/findMatching`, {
-      type: INGRESS,
-      selector: "app=kamaji-console",
+      type:     INGRESS,
+      selector: 'app=kamaji-console',
     });
     const ingress = res[0];
+
     this.consoleUrl = ingress?.spec.rules[0]?.host;
   },
 
@@ -21,9 +21,7 @@ export default {
   },
 
   data() {
-    return {
-      consoleUrl: "",
-    };
+    return { consoleUrl: '' };
   },
   computed: {
     hasUrl() {
