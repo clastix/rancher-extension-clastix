@@ -3,7 +3,28 @@ entries:
   kamaji:
   - annotations:
       catalog.cattle.io/certified: rancher
-      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.26.0-0'
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.29.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0 < 2.9.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.2.0
+    created: "2024-07-17T10:13:12.201966489Z"
+    description: Deploys and operates Kubernetes Control Plane at scale with a fraction
+      of the operational burden
+    digest: 5c4c57a253c208cdba23ab21bafff3a5e23de51cfa9f5d7829ad4ec5dff9480d
+    icon: https://raw.githubusercontent.com/clastix/rancher-extension-clastix/main/pkg/kamaji/assets/icon-kamaji.svg
+    name: kamaji
+    type: application
+    urls:
+    - assets/kamaji/kamaji-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.22.0-0'
       catalog.cattle.io/namespace: cattle-ui-plugin-system
       catalog.cattle.io/os: linux
       catalog.cattle.io/permits-os: linux, windows
@@ -20,11 +41,11 @@ entries:
     name: kamaji
     type: application
     urls:
-    - kamaji/kamaji-0.1.2.tgz
+    - assets/kamaji/kamaji-0.1.2.tgz
     version: 0.1.2
   - annotations:
       catalog.cattle.io/certified: rancher
-      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.26.0-0'
+      catalog.cattle.io/kube-version: '>= 1.22.0-0'
       catalog.cattle.io/namespace: cattle-ui-plugin-system
       catalog.cattle.io/os: linux
       catalog.cattle.io/permits-os: linux, windows
@@ -45,7 +66,7 @@ entries:
     version: 0.1.1
   - annotations:
       catalog.cattle.io/certified: rancher
-      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.26.0-0'
+      catalog.cattle.io/kube-version: '>= 1.22.0-0'
       catalog.cattle.io/namespace: cattle-ui-plugin-system
       catalog.cattle.io/os: linux
       catalog.cattle.io/permits-os: linux, windows
@@ -63,4 +84,4 @@ entries:
     urls:
     - assets/kamaji/kamaji-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-09T15:22:31.528683764Z"
+generated: "2024-07-17T10:13:12.201042764Z"
