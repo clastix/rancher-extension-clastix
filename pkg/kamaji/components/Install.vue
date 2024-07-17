@@ -1,34 +1,33 @@
 <script>
-import { mapGetters } from "vuex";
-import { allHash } from "@shell/utils/promise";
-import ResourceFetch from "@shell/mixins/resource-fetch";
-import { SERVICE } from "@shell/config/types";
+import { mapGetters } from 'vuex';
+import { allHash } from '@shell/utils/promise';
+import ResourceFetch from '@shell/mixins/resource-fetch';
+import { SERVICE } from '@shell/config/types';
 
 export default {
   async fetch() {
     const hash = [this.$fetchType(SERVICE)];
+
     await allHash(hash);
   },
   mixins: [ResourceFetch],
   data() {
-    return {
-      console: false,
-    };
+    return { console: false };
   },
 
   computed: {
-    ...mapGetters(["currentCluster", "currentProduct"]),
-    ...mapGetters({ allRepos: "catalog/repos" }),
+    ...mapGetters(['currentCluster', 'currentProduct']),
+    ...mapGetters({ allRepos: 'catalog/repos' }),
 
     certManagerInstalled() {
-      return !!this.$store.getters[`${this.currentProduct.inStore}/schemaFor`](
-        "cert-manager.io.certificate"
+      return !!this.$store.getters[`${ this.currentProduct.inStore }/schemaFor`](
+        'cert-manager.io.certificate'
       );
     },
 
     kamajiInstalled() {
-      return !!this.$store.getters[`${this.currentProduct.inStore}/schemaFor`](
-        "kamaji.clastix.io.tenantcontrolplane"
+      return !!this.$store.getters[`${ this.currentProduct.inStore }/schemaFor`](
+        'kamaji.clastix.io.tenantcontrolplane'
       );
     },
   },
@@ -41,31 +40,30 @@ export default {
     <p>
       Please complete the installation process
       <a href="https://kamaji.clastix.io/" target="_blank">
-        following this guide </a
-      >.
+        following this guide </a>.
     </p>
 
     <div class="install-checks">
       <div>
         <input
-          type="checkbox"
           id="cert-manager"
           v-model="certManagerInstalled"
+          type="checkbox"
           disabled
         />
         <label for="cert-manager">cert-manager</label>
       </div>
       <div>
         <input
-          type="checkbox"
           id="cert-manager"
           v-model="kamajiInstalled"
+          type="checkbox"
           disabled
         />
         <label for="cert-manager">kamaji</label>
       </div>
       <div>
-        <input type="checkbox" id="cert-manager" v-model="console" disabled />
+        <input id="cert-manager" v-model="console" type="checkbox" disabled />
         <label for="cert-manager">kamaji console</label>
       </div>
     </div>
