@@ -20,7 +20,7 @@ entries:
     name: kamaji
     type: application
     urls:
-    - https://github.com/clastix/rancher-extension-clastix/releases/download/kamaji-0.2.0/kamaji-0.2.0.tgz
+    - assets/kamaji/kamaji-0.2.0.tgz
     version: 0.2.0
   - annotations:
       catalog.cattle.io/certified: rancher
